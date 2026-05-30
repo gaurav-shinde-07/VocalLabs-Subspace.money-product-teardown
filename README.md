@@ -1,11 +1,11 @@
-# VocalLabs.ai — Product Teardown
+# VocalLabs.ai - Product Teardown
 
 Product intern assignment submission for VocalLabs.ai.
 Deep-dive teardown across 5 product pillars with real observations
 from the website, GitHub repos, docs, and competitive research.
 
 ## Company
-VocalLabs.ai — AI voice agents for sales, support & booking automation.
+VocalLabs.ai - AI voice agents for sales, support & booking automation.
 India-first, bootstrapped, profitable. Founded 2024, Bengaluru.
 Recognized as Top 5 AI Startup in Karnataka (Feb 2026).
 
@@ -36,7 +36,7 @@ Recognized as Top 5 AI Startup in Karnataka (Feb 2026).
 
 
 
-# Subspace.money — Product Teardown
+# Subspace.money - Product Teardown
 
 Product intern assignment submission for Subspace.money.
 Deep-dive teardown across 5 product pillars with real observations
@@ -68,7 +68,7 @@ Google Top 100 Startups India. NIRMAAN IITM pre-incubated.
 ## Research Method
 - Full website walkthrough (subspace.money)
 - App flow walkthrough (Play Store listing + screenshots)
-- Play Store reviews — 1-star and 3-star reviews analysed for real pain
+- Play Store reviews - 1-star and 3-star reviews analysed for real pain
 - Competitor analysis: Fleek, GoSplit, Spliiit, myPaisaa, MoneyClub
 - About Us page, Refund Policy, Terms of Service
 - blogs.subspace.money deep-read
