@@ -77,3 +77,48 @@ In the Call Flow Builder, let customers configure:
 
 On every handoff, auto-generate and deliver a 3-line briefing card
 to the live agent via screen pop, WhatsApp, or CRM webhook:
+Customer: [Name]
+Intent: [e.g., EMI overdue — ₹3,200 — requesting extension]
+Sentiment: [Frustrated — raised voice in turns 4 and 6]
+Last AI response: [Offered 7-day extension, customer did not confirm]
+
+**Feature: DPDP Audit Log**
+
+Log every handoff event with:
+- Timestamp (IST)
+- Trigger reason (from the configured list above)
+- Call recording segment flag
+- Agent ID who received the transfer
+- Customer consent status at time of transfer
+
+Export as a CSV or integrate with existing compliance dashboards.
+
+**Feature: Mandatory Disclosure Utterance**
+
+Before every handoff, the AI must say:
+"Please hold for a moment — I am connecting you to a team member
+who will be able to assist you further."
+
+This is legally required under Indian consumer protection norms and
+is a trust-building signal for the customer.
+
+**Documentation: Publish the VocalLabs Handoff Spec**
+
+Write a 2-page PDF titled "VocalLabs Handoff Compliance Spec"
+covering all of the above. Host it on docs.vocallabs.ai and link it:
+- From the enterprise sales deck
+- From the website's security/compliance section
+- In response to any BFSI or GovTech RFP that asks about handoff
+
+This document alone can unblock deals that are currently stalled
+at the legal review stage.
+
+---
+
+## Tradeoff Thinking
+
+Configurable triggers add complexity to the Call Flow Builder UI.
+Counter: expose them as advanced settings with sensible defaults
+(confidence < 65%, explicit request). Most customers will use
+defaults - power users will configure. The compliance logging is
+non-negotiable regardless of UI complexity.
